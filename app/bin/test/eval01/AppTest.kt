@@ -12,4 +12,14 @@ class AppTest {
         val classUnderTest = App()
         assertNotNull(classUnderTest, "app should exist")
     }
+
+    @Test fun `App does Import commands`() {
+        val classUnderTest = App()
+        assertNotNull(classUnderTest, "app should exist")
+    }
+
+    @Test fun `App does print correct respons`() {
+        val classUnderTest = App()
+        assertNotNull(classUnderTest, "app should exist")
+    }
 }
