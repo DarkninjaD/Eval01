@@ -5,9 +5,11 @@ package eval01
 import eval01.utils.Cui
 
 class App() {
-
+    fun cuiExample () {
+        Cui().example()
+    }
 }
 
 fun main() {
-
+    App().cuiExample()
 }
